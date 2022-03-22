@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.ddab8d93.css","mappings":"AAAA,KACE,oBAAuB,CACvB,YACF,CAEA,YACE,gBACF","sources":["index.css"],"sourcesContent":["body {\n  font-family: 'Segoe UI';\n  padding: 15px;\n}\n\ntable, th, td {\n  border: 1px solid;\n}"],"names":[],"sourceRoot":""}
