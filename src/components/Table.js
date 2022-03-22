@@ -8,18 +8,22 @@ export const Table = () => {
     return (
         <>
             <table>
-                <tr>
-                    <th>Código</th>
-                    <th>Descripción</th>
-                    <th>Precio</th>
-                </tr>
-                {info.map(product => (
+                <thead>
                     <tr>
-                        <td>{product.codigo}</td>
-                        <td>{product.descripcion}</td>
-                        <td>{product.precio}</td>
+                        <th>Código</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
                     </tr>
-                ))}
+                </thead>
+                <tbody>
+                    {info.map(product => (
+                        <tr>
+                            <td>{product.codigo}</td>
+                            <td>{product.descripcion}</td>
+                            <td>{product.precio}</td>
+                        </tr>
+                    ))}
+                </tbody>
             </table>
         </>
     )
