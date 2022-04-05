@@ -6,3 +6,18 @@ body {
 table, th, td {
   border: 1px solid;
 }
+
+button {
+  background-color: #104D7F;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: #103D50;
+}
